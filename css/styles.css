@@ -1,10 +1,12 @@
-@import 'core.css';
+@import '_core.css';
 
-@import 'helpers.css';
+@import '_helpers.css';
 
-@import 'hero-units.css';
+@import '_hero-units.css';
 
-@import 'button.css';
+@import '_button.css';
+
+@import '_content-section.css';
 
 
 
