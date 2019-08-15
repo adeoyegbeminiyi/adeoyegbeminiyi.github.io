@@ -1,0 +1,12 @@
+.portfolio-cards {
+  margin-top: 60px; }
+  .portfolio-cards .portfolio-card {
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    overflow: hidden; }
+    .portfolio-cards .portfolio-card .portfolio-card-image {
+      background-size: cover;
+      background-position: center;
+      height: 200px; }
