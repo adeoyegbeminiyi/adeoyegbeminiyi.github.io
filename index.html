@@ -13,16 +13,16 @@
 
     </head>
     <body>r
-        <section class="hero-unit dark-content d-flex align-items-center">
+        <section class="hero-unit d-c d-flex align-items-center">
             <div class="container"> 
                 <div class="row">
                     <div class="col-sm-10 col-md-6">
-                        <h1 class="hero-unit-heading">I'am Owolabi Gbeminiyi</h1>
+                        <h1 class="hero-unit-heading">I'm Owolabi Gbeminiyi</h1>
                         <h2 class="hero-unit-subheading">Web Designer &amp; Java Application Developer</h2>
                         <p>I enjoy building incredible web experience for client </p>
                         <p>from small scale application to vast enterprises application </p>
                         <p> This site showcases of my most recent and favourite picture</p>
-                        <button id ="portfolio-button" class="btn btn-primary">Check out my portfolio</button>
+                        <button id ="portfolio-button" class=" mt-5 btn btn-primary">Check out my portfolio</button>
 
                     </div>
                 </div>
@@ -45,8 +45,8 @@
                       <div class="portfolio-card">
                         <div class="portfolio-card-image"style="background-image:url('img/portfolio-placeholder.jpg')"></div>
                         <div class="portfolio-card-infomation"></div>
-                        <span class="portfolio-card-title">Portfolio Piece 1</span>
-                        <span class="portfolio-card-credits">Design and Development</span>
+                        <span class="portfolio-card-title">Portfolio 1</span>
+                        <span class="portfolio-card-credits">Web Design and Development</span>
                       </div>  
                  </div>
              
@@ -55,7 +55,7 @@
                         <div class="portfolio-card">
                             <div class="portfolio-card-image"style="background-image:url('img/portfolio-placeholder.jpg')"></div>
                             <div class="portfolio-card-infomation"></div>
-                            <span class="portfolio-card-title">Portfolio Piece 2</span>
+                            <span class="portfolio-card-title">Portfolio 2 </span>
                             <span class="portfolio-card-credits">Java Appplication</span>
                        </div>
                     </div>
@@ -64,7 +64,7 @@
                         <div class="portfolio-card">
                             <div class="portfolio-card-image"style="background-image:url('img/portfolio-placeholder.jpg')"></div>
                             <div class="portfolio-card-infomation"></div>
-                            <span class="portfolio-card-title">Portfolio Piece 3</span>
+                            <span class="portfolio-card-title">Portfolio 3</span>
                             <span class="portfolio-card-credits">Microservices</span>
                        </div>
                     </div>
@@ -73,33 +73,51 @@
         </section>
         <section class="content-section content-section-side-image dark-content">
             <div class= "content-section-side-image-container d-block d-sm-none"style="background-image:url('img/who-am-i-mobile.jpg')"></div>
-            <div class="content-section-side-image-content"></div>
-            <div class="container">
+            <div class="content-section-side-image-content">
+                <div class="container">
                     <div class="row">
                             <div class="col-sm-9 offset-sm-1"> 
-                                <h2> 
-                                    <img class="img-circle mb-4"src="img/profile-picture.jpg" width="60" height ="60" alt="Owolabi Gbeminiyi">
+                                <h2 class="content-section-side-image-heading"> 
+                                    <img class="img-circle mb-2"src="img/profilePicture.jpg" width="60" height ="60" alt="Owolabi Gbeminiyi picture">
                                     <br>
                                     Who am I?
                                 </h2>
                                 <p>bla blabla</p>
-                                    
-
-                                
                                 <p> bla gla bla gla</p>
-
-                                
-                                <p>See my full range of <a href="#">skills here. </a></p>
-                                
-                                
+                                <p>See my full range of my <a href="#">skills here. </a></p>
                             </div>
                     </div>
-                    
+              </div>
             </div>
-            
             <div class= "content-section-side-image-container d-none d-sm-block"style="background-image:url('img/who-am-i-desktop.jpg')"></div>
-
         </section>
+        <section class="content-section content-section-centered">
+                  <div class="container">
+                       <div class="row">
+                           <div class="col">
+                               <h2> Get in touch </h2>
+                               <p> Say hello or ask me <em>anything</em> .I am always happy to help.</p>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="offset-sm-3 col-sm-6">
+                               <form class"contact-form" action="">
+                                   <input class="contact-form-input" type="text" name="name" placeholder="Name" value=" " required/>
+                                   <input class="contact-form-input" type="email" name="email" placeholder="Email Address" value=" " required/>
+                                   <input class="contact-form-input" type="text" name="phone_number" placeholder="Phone Number" value=" " required/>
+                                   <textarea class="contact-form-input" name="query" id="" placeholder="Your request..." ></textarea>
+                                   <div class="contact-form-action"> <input class="contact-form-checkbox-input" id="consent"type="checkbox" name="consent" value="1" required />
+                                    <label for="consent"class="contact-form-checkbox-label">
+                                        I agree to receive direct response to my enquiry via the contact in this form.
+                                    </label>
+                                    <button class="btn btn-primary btn-block" type="submit"> Send message </button>
+                                </div>
+                               </form>
+                           </div>
+                       </div>
+                  </div>
+        </section>
+        <footer class="footer"> &copy; Gbeminiyi Owolabi 2019-2020</footer>
         <script type="text/javascript"src ="js/scripts.js"></script>
 
     </body>

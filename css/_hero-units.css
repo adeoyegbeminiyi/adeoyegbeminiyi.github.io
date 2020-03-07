@@ -21,11 +21,12 @@
     background: url("../img/hero-unit-background-mobile.jpg");
     background-size: cover;
     background-position: center;
+    
   }
   .hero-unit-heading{
     font-size: 35px;
   }
   .hero-unit-subheading{
-    font-size: 14;
+    font-size: 14px;
   }
 }
