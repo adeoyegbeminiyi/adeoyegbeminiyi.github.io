@@ -66,6 +66,7 @@ textarea {
   font-family: "Font Awesome 5 Free";
   content: "\f00c";
   color: #EA2626;
+  opacity: 0;
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.5);
   transform: scale(0.5);
