@@ -1,10 +1,23 @@
 .dark-content {
   color: #fff;
  }
-
-h1, h3, h4, h5, h6{
-  color: #ffff; 
+/* h4,h5, make it not white color for now*/
+h1, h3, h6,p{
+  color: #fff; 
 }
 .img-circle{
   border-radius: 50%;
+}
+.bg-primary{
+  Background:linear-gradient(105.63deg, #EA2626 -21.04%, #0029FF 147.44%);
+}
+.hello-paragraphy{
+  color: black;
+}
+.mt-1{
+  color: black;
+
+}
+.portfolio-paragraph{
+  color: black;
 }
