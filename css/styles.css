@@ -1,17 +1,17 @@
-@import '_core.css';
+@import 'core.css';
 
-@import '_helpers.css';
+@import 'helpers.css';
 
-@import '_hero-units.css';
+@import 'hero-units.css';
 
-@import '_button.css';
+@import 'button.css';
 
-@import '_content-section.css';
+@import 'content-section.css';
 
-@import '_portfolio-cards.css';
+@import 'portfolio-cards.css';
 
-@import '_contact-forms.css';
+@import 'contact-forms.css';
 
-@import '_footer.css';
+@import 'footer.css';
 
 
